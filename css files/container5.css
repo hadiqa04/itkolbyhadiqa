@@ -1,0 +1,160 @@
+.container5 {
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.cont5-pt1{
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+.cont5-bt{
+    background-color: inherit;
+    border-color:  rgb(248, 78, 143);
+    height: 10%;
+    width: 25%;
+    margin-top: 8%;
+    border-radius: 25px;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+
+.cont5-pt2 {
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont5-box1, .cont5-box2, .cont5-box3 {
+    align-content: center;
+    height: 90%;
+    width: 20%;
+    text-align: center;
+}
+
+.cont5-heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hr1{
+    border-color: black;
+    opacity: .1;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.cont5-heading2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.cont5-pt3{
+    height: 70%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cont5-p{
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 22%;
+}
+
+.pic-cont5{
+filter:contrast(.4)
+}
+
+
+.pic1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    border-radius: 5px;
+    background-image: url(laptop.png);
+    filter: contrast(.4);
+    z-index: -1;
+    color: white;
+    text-align: center;
+}
+
+.pic2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    border-radius: 5px;
+    background-image: url(tab.png);
+    filter: contrast(.4);
+    z-index: -1;
+    color: white;
+    text-align: center;
+}
+
+.pic3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    border-radius: 5px;
+    background-image: url(earbuds.png);
+    z-index: -1;
+    filter: contrast(.4);
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+
+    .container5{
+    height: 150vh;
+    }
+
+    .cont5-pt1{
+    width: 95%;
+    margin-left: 3%;
+    text-align: center;
+    align-items: center;
+    }
+
+    .cont5-bt{
+    width: 30%;
+    }
+
+    .cont5-pt2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cont5-box1, .cont5-box2, .cont5-box3 {
+        width: 80%;
+    }
+
+    .cont5-pt3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .pic1, .pic2, .pic3{
+        width: 95%;
+        background-repeat: no-repeat;
+    }
+}
